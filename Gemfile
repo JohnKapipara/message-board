@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+# pry debug
+gem 'pry-byebug', group: :development
