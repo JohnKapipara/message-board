@@ -22,8 +22,7 @@
 -->
 
 <%= form_for(@message) do |f| %>
-<!--    
-        <% if @message.errors.present? %>
+    <% if @message.errors.present? %>
         <div class="alert alert-danger">
             <%= alert %>
             <ul>
@@ -35,12 +34,12 @@
             </ul>
         </div>
     <% end %>
--->   
 
   <label>名前：</label>
-    <%= f.text_area :name %>
+    <%= f.text_field :name %>
+  <br />  
   <label>内容：</label>
-    <%= f.text_area :body %>
+    <%= f.text_field :body %>
     <%= f.submit class: "btn btn-sm btn-primary" %>
 
 <% end %>
