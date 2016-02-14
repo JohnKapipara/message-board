@@ -12,6 +12,9 @@
     </div>
 </div>
 
+<%#部分テンプレートを読み込んでいる %>
+<%= render 'form' %>
+
 <!--
 <h1>メッセージ一覧</h1>
 <% @messages.each do |message| %>
@@ -21,6 +24,7 @@
 <% end %>
 -->
 
+<!--
 <%= form_for(@message) do |f| %>
     <% if @message.errors.present? %>
         <div class="alert alert-danger">
@@ -43,3 +47,4 @@
     <%= f.submit class: "btn btn-sm btn-primary" %>
 
 <% end %>
+-->
