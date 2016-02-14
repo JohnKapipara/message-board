@@ -1,0 +1,23 @@
+[33mcommit b1e51217577bb5ce393453390e3c9a547698570e[m
+Author: johnkapipara1 <cgphk621@ybb.ne.jp>
+Date:   Sun Feb 14 10:24:28 2016 +0000
+
+    no.4 create message model
+
+[33mcommit 5e69ab311cc224c3cd633018f93bfb82e3b0a7ff[m
+Author: johnkapipara1 <cgphk621@ybb.ne.jp>
+Date:   Thu Feb 11 08:24:20 2016 +0000
+
+    no.3 create message model
+
+[33mcommit e66b06d194f51a3934b9644db857da2628c28ed3[m
+Author: johnkapipara1 <cgphk621@ybb.ne.jp>
+Date:   Thu Feb 11 07:55:37 2016 +0000
+
+    no.2 create messages_controller
+
+[33mcommit abd09df3f8753b317dcf6ab2652f3d7991d1436c[m
+Author: johnkapipara1 <cgphk621@ybb.ne.jp>
+Date:   Sat Feb 6 10:21:17 2016 +0000
+
+    first commit
