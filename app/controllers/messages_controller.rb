@@ -27,6 +27,7 @@ class MessagesController < ApplicationController
 
 
   def create
+    #binding.pry
     @message = Message.new(message_params)
 =begin
     @message.save
