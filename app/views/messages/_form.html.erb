@@ -14,11 +14,15 @@
 
 <div class="row">
   <label class="col-sm-1 control-label">名前：</label>
-  <div class="col-sm-4">
+  <div class="col-sm-2">
+    <%= f.text_field :name, class: "form-control" %>
+  </div>
+  <label class="col-sm-1 control-label">年齢：</label>
+  <div class="col-sm-2">
     <%= f.text_field :name, class: "form-control" %>
   </div>
   <label class="col-sm-1 control-label">内容：</label>
-  <div class="col-sm-4">
+  <div class="col-sm-3">
     <%= f.text_area :body, class: "form-control", row: "3" %>
   </div>
   <div class="col-sm-2">
