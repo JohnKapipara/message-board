@@ -29,10 +29,6 @@ class MessagesController < ApplicationController
   def create
     #binding.pry
     @message = Message.new(message_params)
-=begin
-    @message.save
-      redirect_to root_path , notice: 'メッセージを保存しました。'
-=end
     if @message.save
       redirect_to root_path , notice: 'メッセージを保存しました。'
     else
@@ -47,16 +43,6 @@ class MessagesController < ApplicationController
   def message_params
     params.require(:message).permit(:name, :age, :body)
   end
-  ##ここまで
-  
-=begin
-  paramsのフォーマットは以下のとおり
-  { :message => {
-      :name => "名前の入力内容",
-      :body => "内容の入力内容"
-      }
-  }
-=end
 
   def set_message
     @message = Message.find(params[:id])
